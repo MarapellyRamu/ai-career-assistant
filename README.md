@@ -1,123 +1,169 @@
-# 👋 Hi, I'm Marapelly Ramu
+# SENSAI - AI Career Assistance Portal
 
-### 🚀 Aspiring Software Engineer | Java Developer | AI Enthusiast | Cyber Security Learner
+## Overview
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MarapellyRamu&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-</p>
+SENSAI is an AI-powered Career Assistance Portal designed to help students and job seekers improve their career readiness. The platform provides resume analysis, AI-generated cover letters, interview preparation, career guidance, and industry insights using modern web technologies and artificial intelligence.
 
----
+## Features
 
-## 👨‍💻 About Me
+* AI Resume Builder and Analyzer
+* AI-Powered Cover Letter Generator
+* Mock Interview Preparation
+* Personalized Career Guidance
+* Industry Insights and Skill Recommendations
+* User Authentication and Authorization
+* Dashboard for Tracking Career Progress
+* Responsive and Modern UI
+## Screenshots
 
-I'm a Final Year Computer Science student passionate about technology and continuous learning. I enjoy solving problems through programming and building projects that create real-world impact.
+### Home Page
+The landing page introduces users to SENSAI and highlights its AI-powered career development features.
 
-Currently, I am focused on:
-
-* 💻 Strengthening my Java programming skills
-* 🧠 Learning Data Structures & Algorithms
-* 🤖 Exploring Artificial Intelligence and AI-powered applications
-* 🔐 Learning Cyber Security and Ethical Hacking
-* 🚀 Building practical projects to improve my development skills
-
-My goal is to become a Software Engineer and contribute to innovative products in the fields of AI, Security, and Software Development.
-
----
-
-## 🌐 Connect With Me
-
-<p align="left">
-<a href="https://www.linkedin.com/in/ambro-ambro-3310b23b9/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />
-</a>
-
-<a href="https://leetcode.com/u/ramu__45/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode" />
-</a>
-
-<a href="https://github.com/MarapellyRamu">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
-</a>
-</p>
+![Home Page](screenshots/home.png)
 
 ---
 
-## 🛠️ Tech Stack
+### Login Page
+Secure authentication using Clerk Authentication for user sign-in and account management.
 
-### Languages
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
-
-### Tools & Platforms
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge\&logo=visual-studio-code)
-
-### Currently Learning
-
-![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-FF6F00?style=for-the-badge)
-![Cyber Security](https://img.shields.io/badge/Cyber%20Security-000000?style=for-the-badge)
-![Ethical Hacking](https://img.shields.io/badge/Ethical%20Hacking-228B22?style=for-the-badge)
-![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-00599C?style=for-the-badge)
+![Login Page](screenshots/login.png)
 
 ---
 
-## 🚀 Featured Project
+### Profile Dashboard
+Users can manage their profiles, track progress, and access personalized career recommendations.
 
-### 🤖 AI Career Assistant
-
-An AI-powered platform designed to help users accelerate their career growth.
-
-### Features
-
-* 📄 AI Resume Builder
-* ✍️ AI Cover Letter Generator
-* 🎤 Interview Preparation
-* 📊 Career Guidance Dashboard
-* 🤖 AI-powered Recommendations
-
-🔗 Repository:
-https://github.com/MarapellyRamu/ai-career-assistant
+![Profile Dashboard](screenshots/profile.png)
 
 ---
 
-## 📊 GitHub Statistics
+### AI Resume Builder
+Build professional resumes with AI assistance and receive intelligent suggestions for improvement.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarapellyRamu\&show_icons=true\&theme=tokyonight)
+![Resume Builder](screenshots/resumebuilder.png)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MarapellyRamu\&theme=tokyonight)
+## Tech Stack
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MarapellyRamu\&layout=compact\&theme=tokyonight)
+### Frontend
 
----
+* Next.js 15
+* React.js
+* Tailwind CSS
+* Shadcn UI
 
-## 🏆 LeetCode Progress
+### Backend
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/ramu__45?theme=dark\&font=baloo)
+* Next.js Server Actions
+* Prisma ORM
+* PostgreSQL (Neon DB)
 
----
+### Authentication
 
-## 📈 Contribution Graph
+* Clerk Authentication
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MarapellyRamu\&theme=react-dark)
+### Artificial Intelligence
 
----
+* Google Gemini API
 
-## 💡 Current Focus
+### Deployment
 
-* Java Development
-* Data Structures & Algorithms
-* Artificial Intelligence
-* Cyber Security & Ethical Hacking
-* Open Source Contributions
+* Rander
 
----
+## Project Structure
 
-### ⭐ Thanks for visiting my profile!
+```text
+app/
+components/
+actions/
+lib/
+prisma/
+public/
+hooks/
+data/
+```
 
-*"Keep learning, keep building, and keep improving every day."*
+## Installation
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+cd CAREER-ASSISTANCE-PORTAL
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+DATABASE_URL="your_neon_database_url"
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_clerk_publishable_key"
+CLERK_SECRET_KEY="your_clerk_secret_key"
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL="/sign-in"
+NEXT_PUBLIC_CLERK_SIGN_UP_URL="/sign-up"
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL="/onboarding"
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL="/onboarding"
+
+GEMINI_API_KEY="your_gemini_api_key"
+```
+
+## Database Setup
+
+Push Prisma schema to the database:
+
+```bash
+npx prisma db push
+```
+
+Generate Prisma Client:
+
+```bash
+npx prisma generate
+```
+
+## Running the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+## Future Enhancements
+
+* AI Career Roadmaps
+* Resume ATS Scoring
+* Job Recommendation Engine
+* Skill Gap Analysis
+* Learning Path Generator
+* Multi-language Support
+
+## Author
+
+Marapelly Ramu
+
+B.Tech - Computer Science and Engineering
+
+Interests:
+
+* Full Stack Development
+* Artificial Intelligence & Machine Learning
+* Ethical Hacking & Cybersecurity
+
+## License
+
+This project is developed for educational and portfolio purposes.
